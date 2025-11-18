@@ -1,3 +1,7 @@
+<p align="center">
+<img alt="" src="https://img.shields.io/github/repo-size/szorfein/dotfiles?color=%230969da&labelColor=%231A1B26&style=for-the-badge&label=Repo" />
+</p>
+
 # Awm dots
 
 New repo for my older dots on Awesome. I'm actually on Swayfx and it made a lot
@@ -12,6 +16,7 @@ prefer to create a clean and new repository to organize things.
 - **Program launcher**: dmenu
 - **Music player**: mpd, ncmpcpp
 - **Lock screen**: betterlockscreen
+- **Shell**: zsh with starship and ohmyzsh
 
 ## Thanks to old fork (+5 years)
 
