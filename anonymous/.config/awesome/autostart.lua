@@ -24,7 +24,7 @@ local function run_once(cmd_arr)
 end
 
 function autostart.run()
-    run_once({ 'compton -b' })
+    run_once({ 'picom -b' })
     run_once({ 'brave-sec' })
 
     run_once({ env.term .. env.term_call[1] .. 'music_n' .. env.term_call[2] .. 'ncmpcpp' })

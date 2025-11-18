@@ -11,7 +11,8 @@
 
 
 # Plugin list in ~/.oh-my-zsh/plugins
-plugins=(git git-prompt starship keychain zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search)
+# gpg-agent and keychain works together
+plugins=(starship gpg-agent keychain zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search)
 
 # Disable oh-my-zsh update (before load ohmyzsh)
 # https://github.com/ohmyzsh/ohmyzsh#getting-updates
@@ -19,6 +20,8 @@ zstyle ':omz:update' mode disabled
 
 # Keychain
 zstyle ':omz:plugins:keychain' agents gpg
+#zstyle :omz:plugins:keychain identities id_ed25519 id_github 2C5879C2
+zstyle :omz:plugins:keychain options --quiet
 
 source $ZSH/oh-my-zsh.sh
 

@@ -17,6 +17,9 @@ prefer to create a clean and new repository to organize things.
 - **Music player**: mpd, ncmpcpp
 - **Lock screen**: betterlockscreen
 - **Shell**: zsh with starship and ohmyzsh
+- **Editor**: vim
+- **File browser**: nnn
+- **Fonts**: Iosevka Nerd, Material Icons, Papirus Icon
 
 ## Thanks to old fork (+5 years)
 
