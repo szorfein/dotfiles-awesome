@@ -1,36 +1,14 @@
 "
-"    ██▒   █▓ ██▓ ███▄ ▄███▓ ██▀███   ▄████▄  
-"   ▓██░   █▒▓██▒▓██▒▀█▀ ██▒▓██ ▒ ██▒▒██▀ ▀█  
-"    ▓██  █▒░▒██▒▓██    ▓██░▓██ ░▄█ ▒▒▓█    ▄ 
+"    ██▒   █▓ ██▓ ███▄ ▄███▓ ██▀███   ▄████▄
+"   ▓██░   █▒▓██▒▓██▒▀█▀ ██▒▓██ ▒ ██▒▒██▀ ▀█
+"    ▓██  █▒░▒██▒▓██    ▓██░▓██ ░▄█ ▒▒▓█    ▄
 "     ▒██ █░░░██░▒██    ▒██ ▒██▀▀█▄  ▒▓▓▄ ▄██▒
 "      ▒▀█░  ░██░▒██▒   ░██▒░██▓ ▒██▒▒ ▓███▀ ░
 "      ░ ▐░  ░▓  ░ ▒░   ░  ░░ ▒▓ ░▒▓░░ ░▒ ▒  ░
-"      ░ ░░   ▒ ░░  ░      ░  ░▒ ░ ▒░  ░  ▒   
-"        ░░   ▒ ░░      ░     ░░   ░ ░        
-"         ░   ░         ░      ░     ░ ░      
+"      ░ ░░   ▒ ░░  ░      ░  ░▒ ░ ▒░  ░  ▒
+"        ░░   ▒ ░░      ░     ░░   ░ ░
+"         ░   ░         ░      ░     ░ ░
 
-
-call plug#begin()
-
-" Colors
-Plug 'szorfein/fromthehell.vim'
-Plug 'szorfein/lightline.vim'
-Plug 'szorfein/sci.vim'
-Plug 'szorfein/vamp.vim'
-Plug 'szorfein/ombre.vim'
-
-" Plugins
-Plug 'edkolev/tmuxline.vim'
-Plug 'dense-analysis/ale'
-Plug 'ryanoasis/vim-devicons'
-Plug 'lilydjwg/colorizer'
-Plug 'Yggdroot/indentLine'
-Plug 'itchyny/lightline.vim'
-Plug 'mengelbrecht/lightline-bufferline'
-Plug 'airblade/vim-gitgutter'
-Plug 'christoomey/vim-tmux-navigator'
-
-call plug#end()
 
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
@@ -54,7 +32,7 @@ autocmd FileType ruby setlocal ts=2 sts=2 sw=2
 autocmd FileType python setlocal ts=4 sts=4 sw=4
 
 " Add a showbreak character when line wrapping long time
-set showbreak=↪\ 
+set showbreak=↪\
 
 " Explicitly render different types of whitespace differently
 " and render trailing spaces.

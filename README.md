@@ -8,6 +8,11 @@ New repo for my older dots on Awesome. I'm actually on Swayfx and it made a lot
 of breaking change with my previous stack so rather than create a branch, i
 prefer to create a clean and new repository to organize things.
 
+##
+
+![lines screenshot](https://github.com/szorfein/unix-portfolio/raw/master/lines/start-screen.png)
+![lines full](https://github.com/szorfein/unix-portfolio/raw/master/lines/full.png)
+
 ## Setup
 
 - **Wm**: awesome
@@ -18,7 +23,7 @@ prefer to create a clean and new repository to organize things.
 - **Lock screen**: betterlockscreen
 - **Shell**: zsh with starship and ohmyzsh
 - **Editor**: vim
-- **File browser**: nnn
+- **File browser**: yazi
 - **Fonts**: Iosevka Nerd, Material Icons, Papirus Icon
 
 ## Thanks to old fork (+5 years)
