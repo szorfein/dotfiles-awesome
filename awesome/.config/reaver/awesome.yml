@@ -17,4 +17,14 @@ things:
     strip_components: 0
     dest_dir: .local/share/fonts
     keep_name: true
+  - name: spacemono.tar.xz
+    url: https://github.com/ryanoasis/nerd-fonts/releases/latest/download/SpaceMono.tar.xz
+    strip_components: 0
+    dest_dir: .local/share/fonts
+    keep_name: true
+  - name: robotomono.tar.xz
+    url: https://github.com/ryanoasis/nerd-fonts/releases/latest/download/RobotoMono.tar.xz
+    strip_components: 0
+    dest_dir: .local/share/fonts
+    keep_name: true
 time: 86000

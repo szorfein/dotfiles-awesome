@@ -2,7 +2,7 @@
 
 ! theme https://www.colorspire.com/
 ! material color: https://material.io/inline-tools/color/
-! material: https://material.io/tools/color 
+! material: https://material.io/tools/color
 
 ! Bg !
 
@@ -42,6 +42,3 @@
 
 ! Text Error
 *color11:      #ffe0b2
-
-st.font: SpaceMono Nerd Font:style=Regular:pixelsize=13
-st.opacity: 255
