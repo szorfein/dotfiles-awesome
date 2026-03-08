@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="" src="https://img.shields.io/github/repo-size/szorfein/dotfiles?color=%230969da&labelColor=%231A1B26&style=for-the-badge&label=Repo" />
+<img alt="" src="https://img.shields.io/github/repo-size/szorfein/dotfiles-awesome?color=%230969da&labelColor=%231A1B26&style=for-the-badge&label=Repo" />
 </p>
 
 # Awm dots
