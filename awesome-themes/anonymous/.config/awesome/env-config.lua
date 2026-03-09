@@ -1,10 +1,10 @@
 local env = {}
 
-env.term = os.getenv('TERMINAL') or 'xterm'
-env.editor = os.getenv('EDITOR') or 'vim'
+env.term = os.getenv("TERMINAL") or "xterm"
+env.editor = os.getenv("EDITOR") or "vim"
 
 -- st or xst
-env.term_call = { ' -c ', ' -e ' }
+env.term_call = { " -c ", " -e " }
 -- kitty, env.term_call = { " --class=" , " -e " }
 -- rxvt or urxvt, env.term_call = { " -T ", " -e " }
 
